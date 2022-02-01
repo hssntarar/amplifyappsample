@@ -1,0 +1,17 @@
+@import './vaiables//Variable.scss';
+
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+h1 {
+    color: $red
+}
+button{
+    @include buttonStyle(red,25px)  
+}
+}
+
+button{
+    @include buttonStyle(purple,25px)  
+}

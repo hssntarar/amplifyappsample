@@ -1,0 +1,20 @@
+// Colors
+$blackColor:rgb(22, 24, 22);
+$whiteColor:white;
+$red:rgb(175, 2, 2);
+
+
+// FONTS
+$title:Arial, Helvetica, sans-serif;
+$bodyFont:'Times New Roman', Times, serif;
+
+// @mixin
+
+@mixin buttonStyle($color,$fontSize) {
+    width: 200px;
+    height: 40px;
+    background-color:$color;
+    border-radius: 8px;
+    color: $whiteColor;
+    font-size: $fontSize;    
+}
